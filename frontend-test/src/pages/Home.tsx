@@ -39,7 +39,6 @@ function Home() {
             }
             const randomIndex = Math.floor(Math.random() * availableOptions.length);
             optionToAdd = availableOptions[randomIndex];
-            console.log('option to add: ' + optionToAdd);
         } else {
             optionToAdd = options.find(option => option.title === activeOption);
             if (!optionToAdd) {
