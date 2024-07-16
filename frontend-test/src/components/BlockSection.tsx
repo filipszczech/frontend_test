@@ -5,10 +5,19 @@ interface BlockSectionProps {
     headerText: string;
 }
 
-  const  BlockSection: React.FC<BlockSectionProps> = ({ children, headerText }) => {
+const truncateText = (text: string, wordLimit: number): string => {
+  const words = text.split(' ');
+  if (words.length > wordLimit) {
+    return words.slice(0, wordLimit).join(' ') + '...';
+  }
+  return text;
+};
+
+const  BlockSection: React.FC<BlockSectionProps> = ({ children, headerText }) => {
+  const truncatedHeaderText = truncateText(headerText, 5);
   return (
     <div className={styles['block-section']}>
-        <h2>{headerText}</h2>
+        <h2>{truncatedHeaderText}</h2>
         { children }
     </div>
   )

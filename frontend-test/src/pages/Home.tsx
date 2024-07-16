@@ -97,7 +97,7 @@ function Home() {
                         </Button>
                     </div>
                 </BlockSection>
-                <BlockSection headerText="blok trzeci">
+                <BlockSection headerText="blok z długą nazwą, która sama się przytnie">
                     {activeOptionsList.length > 0 ? (
                         activeOptionsList
                             .slice()
