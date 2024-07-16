@@ -1,0 +1,33 @@
+@import '../variables';
+@import '../mixins';
+
+.edit-options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    &__element {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        align-items: center;
+
+        span {
+            width: fit-content;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-width: 8rem;
+            max-width: 8rem;
+        }
+
+        input {
+            padding: 0.5rem;
+            background-color:#fff;
+            border: 2px solid white;
+            color: #2A2D36;
+            width: 100%;
+            max-width: 9rem;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import '../variables';
+@import '../mixins';
+
+.main-header {
+    display: flex;
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $base-margin;
+
+    &__border {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        height: 100%;
+        width: 85%;
+        border-bottom: 0.1rem solid white;
+        transform: translate(-50%, 0%);
+    }
+}

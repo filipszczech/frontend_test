@@ -1,0 +1,14 @@
+@import '../variables';
+@import '../mixins';
+
+.option-radio-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: large;
+
+    &__element {
+        display: flex;
+        gap: 0.75rem;
+    }
+}

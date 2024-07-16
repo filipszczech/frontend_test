@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Opcja pierwsza",
+        "desc": "desc 1"
+    },
+    {
+        "title": "Opcja druga",
+        "desc": "desc 2"
+    },
+    {
+        "title": "Opcja trzecia",
+        "desc": "desc 3"
+    },
+    {
+        "title": "Opcja czwarta",
+        "desc": "desc 4"
+    },
+    {
+        "title": "Opcja piąta",
+        "desc": "desc 5"
+    },
+    {
+        "title": "Opcja szósta",
+        "desc": "desc 6"
+    }
+]

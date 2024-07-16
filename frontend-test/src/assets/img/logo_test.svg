@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_2" data-name="Warstwa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343.13 343.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+        stroke: #1d1d1b;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="171.56" cy="171.56" r="171.06"/>
+  <polygon class="cls-2" points="78.8 63.99 265.69 63.99 247.65 256.33 171.39 277.44 94.46 254.63 78.8 63.99"/>
+  <polygon class="cls-1" points="113.1 102.03 229.78 102.29 227.99 125.78 139.39 126.03 140.93 150.8 225.95 151.56 220.07 222.03 172.33 236.33 123.56 223.31 121.01 186.29 144.24 186.03 145.27 204.16 171.31 212.33 197.1 204.16 199.65 173.78 119.22 174.03 113.1 102.03"/>
+</svg>

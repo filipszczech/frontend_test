@@ -1,0 +1,16 @@
+@import '../variables';
+@import '../mixins';
+
+.block-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+
+    @include respond-to(small) {
+        h2 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
